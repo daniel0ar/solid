@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _1ocp.mal;
+package _1ocp.bien;
+
+import _1ocp.mal.*;
 
 
 

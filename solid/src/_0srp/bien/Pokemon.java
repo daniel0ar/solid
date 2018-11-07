@@ -3,19 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _1ocp.mal;
-
-
+package _0srp.bien;
 
 /**
  *
  * @author Palacios
  */
-public abstract class Pokemon {
+public  class Pokemon {
     private String nombre;
     private String tipo;
     private String habilidad;
-    private double porcentajeVida;
+    private int porcentajeVida;
 
     public Pokemon() {
         
@@ -28,7 +26,7 @@ public abstract class Pokemon {
         this.porcentajeVida=100;
     }
     
-  
+    
     public String getNombre() {
         return nombre;
     }
@@ -53,13 +51,18 @@ public abstract class Pokemon {
         this.habilidad = habilidad;
     }
 
-    public double getPorcentajeVida() {
+    public int getPorcentajeVida() {
         return porcentajeVida;
     }
 
-    public void setPorcentajeVida(double porcentajeVida) {
+    public void setPorcentajeVida(int porcentajeVida) {
         this.porcentajeVida = porcentajeVida;
     }
- 
+    
+    
+    
+    
+    
+    
     
 }

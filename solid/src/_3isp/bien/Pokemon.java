@@ -3,7 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package _1ocp.mal;
+package _3isp.bien;
+
+import java.util.LinkedList;
+import java.util.List;
+
 
 
 
@@ -16,6 +20,7 @@ public abstract class Pokemon {
     private String tipo;
     private String habilidad;
     private double porcentajeVida;
+    private List<String> movimientos;
 
     public Pokemon() {
         
@@ -26,6 +31,7 @@ public abstract class Pokemon {
         this.tipo = tipo;
         this.habilidad = habilidad;
         this.porcentajeVida=100;
+        this.movimientos = new LinkedList<>();
     }
     
   
@@ -60,6 +66,18 @@ public abstract class Pokemon {
     public void setPorcentajeVida(double porcentajeVida) {
         this.porcentajeVida = porcentajeVida;
     }
+
+    public List<String> getMovimientos() {
+        return movimientos;
+    }
+
+    public void setMovimientos(List<String> movimientos) {
+        this.movimientos = movimientos;
+    }
+
+    
+    
  
+    
     
 }
